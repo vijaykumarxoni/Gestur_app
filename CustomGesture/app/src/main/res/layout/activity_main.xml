@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/gesture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/darker_gray"
+    tools:context="com.boochats.vksoni.customgesture.MainActivity"
+>
+
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/txtResult"
+    android:textSize="30sp"
+    android:text="Gesture" />
+</android.gesture.GestureOverlayView>
